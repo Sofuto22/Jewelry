@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo {
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    left: 0;
+}
+
+body {
+    height: 125vh;
+    background-image: url(../assets/images/fantasy.jpg) ;
+    background-size: cover;
+    font-family: papyrus;
+    color: aliceblue;
+    margin-top: 60px;
+    padding: 10px;
+
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 60px;
+    background-color: black;
+    height: 60px;
+    align-items: center;
+    display: flex;
+}
+
+nav *{
+    display: inline;
+}
+
+nav li {
+    margin: 60px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: xx-large;
+}
